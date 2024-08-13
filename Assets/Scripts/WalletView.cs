@@ -11,7 +11,7 @@ public class WalletView : MonoBehaviour
 
     private void OnEnable() => 
         _walletHaver.Wallet.OnChanged += OnWalletChange;
-
+    //
     private void Start() => 
         OnWalletChange();
 
