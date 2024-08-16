@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 [Serializable]
-public class Power
+public class Power : IStat
 {
     [SerializeField][Min(0)] private int _value;
 

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class Wallet
+public class Wallet : IStat
 {
     private decimal _balance;
 
